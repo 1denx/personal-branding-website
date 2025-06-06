@@ -10,13 +10,13 @@
 }
 
 .banner-bg {
-  background-image: url("../assets/images/index/hero-section2-dt.png");
+  background-image: url("./assets/images/index/hero-section2-dt.png");
   background-size: cover;
   
 }
 @media (max-width: 768px) {
     .banner-bg {
-  background-image: url("../assets/images/index/hero-section2.png");
+  background-image: url("./assets/images/index/hero-section2.png");
   background-size: cover;
 }
 }
