@@ -1,0 +1,22 @@
+.min52max120 {
+	--min-size: 52;
+  --max-size: 120;
+	--font-size: calc(
+		(var(--min-size) * 1px) + 
+		(var(--max-size) - var(--min-size)) * 
+		((100cqw - 375px) / (1920 - 375))
+	);
+	font-size: clamp(var(--min-size) * 1px, var(--font-size), var(--max-size) * 1px);
+}
+
+.banner-bg {
+  background-image: url("../assets/images/index/hero-section2-dt.png");
+  background-size: cover;
+  
+}
+@media (max-width: 768px) {
+    .banner-bg {
+  background-image: url("../assets/images/index/hero-section2.png");
+  background-size: cover;
+}
+}
