@@ -28,7 +28,7 @@
 	@apply grid grid-cols-12 gap-x-6;
 }
 @utility btn {
-	@apply inline-block rounded-[40px] px-4 py-2 transition-colors duration-300;
+	@apply inline-block rounded-[40px] px-4 py-2 transition-colors duration-300 cursor-pointer;
 }
 @utility btn-outline-gray-primary {
 	@apply border border-black text-gray-primary hover:border-primary hover:bg-primary hover:text-white;
